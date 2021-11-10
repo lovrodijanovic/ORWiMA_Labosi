@@ -77,8 +77,6 @@ nav ul li a:hover {
 main {
   margin: 10px;
   border-radius: 10px;
-
-  display: grid;
 }
 
 main article,
@@ -175,21 +173,26 @@ footer p {
   text-align: left;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 10px;
+}
+
 .about1 {
-  grid-row: 1 / 2;
-  grid-column: 1 / 2;
+  grid-column: 1;
+  grid-row: 1;
 }
-
 .about2 {
-  grid-row: 2 / 3;
-  grid-column: 1 / 2;
+  grid-column: 1;
+  grid-row: 2;
 }
-
-.parahraph1 {
-  grid-row: 1/2;
-  grid-column: 2/3;
+.paragraph1 {
+  grid-column: 2;
+  grid-row: 1;
 }
-.parahraph2 {
-  grid-row: 2/3;
-  grid-column: 2/3;
+.paragraph2 {
+  grid-column: 2;
+  grid-row: 2;
 }
