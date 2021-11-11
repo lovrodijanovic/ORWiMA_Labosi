@@ -173,6 +173,10 @@ footer p {
   text-align: left;
 }
 
+.about2 p {
+  padding-bottom: 15px;
+}
+
 .paragraph1 {
   float: right;
 }
