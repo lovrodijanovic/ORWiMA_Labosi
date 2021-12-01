@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LV7_zadaci za samostalni rad</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forward">Naprijed</string>
+    <string name="football_player1">Bruno Petković</string>
+    <string name="football_player2">Mateo Kovačić</string>
+    <string name="football_player3">Luka Modrić</string>
+    <string name="football_player4">Borna Barišić</string>
+    <string name="text1">Najbolji nogometaš hrvatske nogometne reprezentacije je:</string>
+</resources>
